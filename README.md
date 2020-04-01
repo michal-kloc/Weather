@@ -100,7 +100,7 @@ python3 weather_daemon.py
 python3 weather_daemon.py &
 ```
 
-# weather\_api.py
+## weather\_api.py
 Weather project __entry__, can be used to query database for weather statistics
 and to plot forecast.
 
