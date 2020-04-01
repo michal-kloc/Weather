@@ -50,13 +50,13 @@ def __init__(self, config=None):
 
 ```python
 def request_weather(self):
-	"""Query [openweathermap](https://openweathermap.org/) for current weather
+	"""Query https://openweathermap.org/ for current weather
 	data and store it in database."""
 ```
 
 ```python
 def plot_forecast(self):
-	"Query [openweathermap](https://openweathermap.org/) for forecast.
+	"Query https://openweathermap.org/ for forecast.
 ```
 
 ```python
@@ -87,7 +87,7 @@ def __url(self, rtype):
 ## weather\_deamon.py
 
 Not an actual daemon, although should be used like one. This script, when
-launched, queries [openweathermap](https://openweathermap.org/) for current
+launched, queries periodically [openweathermap](https://openweathermap.org/) for current
 weather data and stores it in database.
 
 #### usage:
@@ -100,7 +100,7 @@ python3 weather_daemon.py
 python3 weather_daemon.py &
 ```
 
-# wather\_api.py
+# weather\_api.py
 Weather project __entry__, can be used to query database for weather statistics
 and to plot forecast.
 
