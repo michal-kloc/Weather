@@ -114,7 +114,7 @@ python3 weather_api.py CMD ARGS
 
 - __alltemp__  - query all temperatures in data set
 - __avgtemp__  - query average temperature
-- __forecast__ - erform forecast plot
+- __forecast__ - plot forecast
 - __gui__      - launch gui version of this application
 - __help__     - display help
 - __maxtemp__  - query maximum temperature
